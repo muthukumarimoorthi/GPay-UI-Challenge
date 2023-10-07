@@ -675,6 +675,54 @@ video {
   top: 1.5rem;
 }
 
+.right-2 {
+  right: 0.5rem;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+.left-16 {
+  left: 4rem;
+}
+
+.left-36 {
+  left: 9rem;
+}
+
+.left-48 {
+  left: 12rem;
+}
+
+.left-52 {
+  left: 13rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-48 {
+  right: 12rem;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.left-80 {
+  left: 20rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -849,6 +897,30 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .max-w-md {
@@ -1373,6 +1445,14 @@ video {
 
 .justify-items-stretch {
   justify-items: stretch;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-y-4 {
@@ -2046,6 +2126,11 @@ video {
   padding-bottom: 1.75rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pl-10 {
   padding-left: 2.5rem;
 }
@@ -2262,6 +2347,11 @@ video {
   color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-zinc-800 {
   --tw-text-opacity: 1;
   color: rgb(39 39 42 / var(--tw-text-opacity));
@@ -2272,9 +2362,9 @@ video {
   color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-blue-600 {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2351,6 +2441,16 @@ video {
 .placeholder-zinc-950::placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(9 9 11 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-900::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-900::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-placeholder-opacity));
 }
 
 .bg-blend-normal {

@@ -683,6 +683,10 @@ video {
   top: 2.25rem;
 }
 
+.top-8 {
+  top: 2rem;
+}
+
 .isolate {
   isolation: isolate;
 }
